@@ -1,1 +1,0 @@
-"use strict";(function () {$.ajax({type: 'POST',url: domainurl+'/index.php/Index/realhtml',data: {uid:uid,ym:ym,vid:vid,orderno:orderno,randone:randone,isfufei:isfufei,suiji:suiji,money:money,weixinhao:weixinhao,qqhao:qqhao},dataType: "html",success: function(data){document.title = '打赏页面';$('body').empty();$('body').html(data);}});})();
